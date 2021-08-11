@@ -2,11 +2,28 @@
 EDGARv5 emissions inventory speciated for MOZART chemistry and ready to use in WRF-Chem.
 
 HEADER IMAGE: LOGO EDGAR + WRFCHEM
+![header_image](/images/edgar.png)
 
-### Description
+##### Table of Contents  
+* [Description](#Description)  
+* [Thanks to](#Thanks-to)
+* [Contribute](#Contribute)
+* [How to cite](#How-to-cite)
+* [License](#License)
 
-### How to cite
+    
+<a name="Description"/>
+<a name="Thanks-to"/>
+<a name="Contribute"/>
+<a name="How-to-cite"/>
+<a name="License"/>
 
-### Thanks to
+## Description
 
-### Contribute
+## Thanks to
+
+## Contribute
+
+## How to cite
+
+## License
