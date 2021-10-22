@@ -1,0 +1,76 @@
+&CONTROL
+domains=1
+anthro_dir = '/geos/d21/s1878599/edgarv5_process/edgar2015_mozart_wrfchem'
+ wrf_dir    = '../../../WRF/run_nest_postmon_2019_base'
+ src_file_prefix = 'edgar_v5_2015_'
+ src_file_suffix = '_0.1x0.1.nc'
+ src_names = 'CO(28)','NOx(30)','SO2(64)','NH3(17)','BC(12)','OC(12)','PM2.5(1)','PM10(1)','BENZENE(78)','BIGALK(72)','BIGENE(56)','C2H2(26)','C2H4(28)',
+             'C2H5OH(46)','C2H6(30)','C3H6(42)','C3H8(44)','CH2O(30)',
+	     'CH3CHO(44)','CH3COCH3(58)','CH3OH(32)','CH3COOH(60)','HCOOH(46)',
+             'MEK(72)','TOLUENE(92)','XYLENES(106)'
+ sub_categories  = 'TOTAL'
+ serial_output  = .false.
+ start_output_time = '2019-10-01_00:00:00'
+ stop_output_time  = '2019-10-02_00:00:00'
+ output_interval  =3600,
+ data_yrs_offset   = +4,    !In the guidelines there is a -, but the correct one is a +!
+ emissions_zdim_stag = 1,
+ !emission map according to emiss_opt==10 used for MOZART-MOSAIC. See registry.chem.
+ !not indicating sectors means it will look for all the ones indicated in sub_categories.
+ emis_map =	'CO->CO',
+		'NO->0.8*NOx',
+		'NO2->0.2*NOx',
+		'SO2->SO2',
+		'NH3->NH3',
+		'BENZENE->BENZENE',
+		'BIGALK->BIGALK',
+		'BIGENE->BIGENE',
+                'C2H2->C2H2',
+                'C2H4->C2H4',
+                'C2H5OH->C2H5OH',
+                'C2H6->C2H6',
+                'C3H6->C3H6',
+                'C3H8->C3H8',
+                'CH2O->CH2O',
+                'CH3CHO->CH3CHO',
+                'CH3COCH3->CH3COCH3',
+                'CH3OH->CH3OH',
+		'CH3COOH->CH3COOH',
+ 		'HCOOH->HCOOH',
+                'MEK->MEK',
+                'XYLENE->XYLENES',
+		'TOLUENE->TOLUENE',
+                'ISOP->0.0*CO',
+		'SULF->0.0*SO2',
+                'GLY->0.0*CO',
+                'MACR->0.0*CO',
+                'MGLY->0.0*CO',
+                'MVK->0.0*CO',
+                'C10H16->0.0*CO',
+                'HONO->0.0*CO',
+                'ECI(a)->0.1*BC',
+                'ECJ(a)->0.9*BC',
+                'ORGI(a)->0.1*OC',
+                'ORGJ(a)->0.9*OC',
+                'PM25I(a)->0.1*PM2.5 + -0.1*BC + -0.1*OC',
+                'PM25J(a)->0.9*PM2.5 + -0.9*BC + -0.9*OC',
+                'PM_10(a)->PM10 + -1.0*PM2.5',
+                'SO4I(a)->0.0*PM10',
+                'SO4J(a)->0.0*PM10',
+                'NO3I(a)->0.0*PM10',
+                'NO3J(a)->0.0*PM10',
+                'NH4I(a)->0.0*PM10',
+                'NH4J(a)->0.0*PM10',
+                'NAI(a)->0.0*PM10',
+                'NAJ(a)->0.0*PM10',
+                'CLI(a)->0.0*PM10',
+                'CLJ(a)->0.0*PM10',
+                'CO_A->CO',
+                'CO_BB->0.0*CO',
+                'ORGI_A(a)->0.0*PM10',
+                'ORGI_BB(a)->0.0*PM10',
+                'ORGJ_A(a)->0.0*PM10',
+                'ORGJ_BB(a)->0.0*PM10',
+                'VOCA->0.0*PM10',
+                'VOCBB->0.0*PM10'
+/
