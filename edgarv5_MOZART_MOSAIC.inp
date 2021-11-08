@@ -1,22 +1,22 @@
 &CONTROL
-domains=1
-anthro_dir = '/geos/d21/s1878599/edgarv5_process/edgar2015_mozart_wrfchem'
- wrf_dir    = '../../../WRF/run_nest_postmon_2019_base'
+domains=''
+anthro_dir = ''
+ wrf_dir    = ''
  src_file_prefix = 'edgar_v5_2015_'
  src_file_suffix = '_0.1x0.1.nc'
  src_names = 'CO(28)','NOx(30)','SO2(64)','NH3(17)','BC(12)','OC(12)','PM2.5(1)','PM10(1)','BENZENE(78)','BIGALK(72)','BIGENE(56)','C2H2(26)','C2H4(28)',
              'C2H5OH(46)','C2H6(30)','C3H6(42)','C3H8(44)','CH2O(30)',
 	     'CH3CHO(44)','CH3COCH3(58)','CH3OH(32)','CH3COOH(60)','HCOOH(46)',
              'MEK(72)','TOLUENE(92)','XYLENES(106)'
- sub_categories  = 'TOTAL'
+ sub_categories  = 'TOTAL' 
  serial_output  = .false.
- start_output_time = '2019-10-01_00:00:00'
- stop_output_time  = '2019-10-02_00:00:00'
+ start_output_time = ''
+ stop_output_time  = ''
  output_interval  =3600,
- data_yrs_offset   = +4,    !In the guidelines there is a -, but the correct one is a +!
+ data_yrs_offset   = '',    !In the guidelines there is a -, but the correct one is a +!
  emissions_zdim_stag = 1,
  !emission map according to emiss_opt==10 used for MOZART-MOSAIC. See registry.chem.
- !not indicating sectors means it will look for all the ones indicated in sub_categories.
+ !not indicating sectors in the mapping means it will look for all the ones indicated in sub_categories.
  emis_map =	'CO->CO',
 		'NO->0.8*NOx',
 		'NO2->0.2*NOx',
