@@ -1,7 +1,7 @@
 # EDGARv5_MOZART
-EDGARv5 emissions inventory speciated for MOZART chemistry and ready to use in WRF-Chem.
+EDGAR v5.0 emissions inventory for year 2015 speciated for MOZART chemistry and ready to use in WRF-Chem MOZART_MOSAIC options.
 
-<! ![header_image](/images/edgar.jpg) ![header_image2](/images/wrfchem_logo.png) 
+![header_image](/images/edgar.jpg) ![header_image2](/images/wrfchem_logo.png) 
 
 ##### Table of Contents  
 * [Description](#Description)  
@@ -19,6 +19,7 @@ EDGARv5 emissions inventory speciated for MOZART chemistry and ready to use in W
 
 ## Description
 
+
 ## Thanks to
 
 ## Contribute
@@ -26,4 +27,4 @@ EDGARv5 emissions inventory speciated for MOZART chemistry and ready to use in W
 ## How to cite
 
 ## License
->
+
