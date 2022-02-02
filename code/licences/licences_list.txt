@@ -1,9 +1,0 @@
-We acknowledge the use of the following softwares and packages for the creation of the analaysis scripts contained in this folder:
-
--Python 3.6;
--numPy (https://numpy.org)
--Pandas (https://pandas.pydata.org)
--xarray (https://doi.org/10.5281/zenodo.3724893); 
-
-TO DO: add specific licences scripts. Add final licence for EDGAR-MOZART package.
-
