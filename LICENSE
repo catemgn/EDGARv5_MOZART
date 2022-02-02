@@ -1,3 +1,5 @@
+EDGAR for MOZART uses the "xarray", "pandas" and "numpy" libraries 'as-is'. Their licenses are reproduced in the edgar_mozart/licenses directory.
+
 MIT License
 
 Copyright (c) 2021-2022 Caterina Mogno, Margaret R. Marvin
