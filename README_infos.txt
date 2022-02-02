@@ -10,7 +10,7 @@ https://edgar.jrc.ec.europa.eu/overview.php?v=50_AP
 v4.3.2_vocs
 https://edgar.jrc.ec.europa.eu/overview.php?v=432_VOC_spe
 
-THERE ARE ALSO TEMPORAL PROFILES AVAILABLE AT:	 
+THERE ARE ALSO TEMPORAL PROFILES AVAILABLE AT (not used in this work):	 
 Temporal profiles: https://edgar.jrc.ec.europa.eu/overview.php?v=temp_profile
 (or direclty at the repository: https://cidportal.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/tempral_profiles)
 
