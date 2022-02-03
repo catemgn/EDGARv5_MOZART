@@ -5,32 +5,44 @@ EDGAR v5.0 emissions inventory for year 2015 speciated for MOZART chemistry and 
 
 ##### Table of Contents  
 * [Description](#Description)  
+* [Acknowledgements](#Acknowledgements)
 * [Contacts](#Contacts)
 * [How to cite](#How-to-cite)
 * [License](#License)
-* [Acknowledgements](#Acknowledgements)
+
 
     
 <a name="Description"/>
+<a name="Acknowledgements"/>
 <a name="Contacts"/>
 <a name="How-to-cite"/>
 <a name="License"/>
-<a name="Acknowledgements"/>
+
 
 ## Description
 Emissions inventories need to be prepared to be used in chemical transport models (CTMs). They usually need ad-hoc preprocessing based on the chemical mechanism used in the CTM, including speciation of non-methane volatile organic compounds (NMVOCs). 
-Here we provide **monthly EDGAR v5.0 global  air  pollutant  emissions  for  the  year  2015,  speciated  for  the  MOZART  chemical  mechanism.** 
-We also provide additional files to make it work in WRF-Chem [anthro-emiss preprocessing  tool](https://www2.acom.ucar.edu/wrf-chem/wrf-chem-tools-community)  with the MOZART-MOSAIC options.
 
-Emissions files are provided as individual NetCDF files for each pollutant containing anthropogenic sectors emissions in the following form:
-![image](/images/edgar.jpg)
+Here we provide **monthly [EDGAR v5.0](https://edgar.jrc.ec.europa.eu/index.php/dataset_ap50) global  air  pollutant  emissions  for  the  year  2015,  speciated  for  the  MOZART  chemical  mechanism.** 
+
+Emission files are provided as individual NetCDF files for each pollutant containing anthropogenic sector emissions as individual variables in the following form:
+<p align="center">
+<img src="/images/dataset_structure.PNG" width="600" height="600">
+</p>
+
+These files are also ready-to be used in WRF-Chem [anthro-emiss preprocessing  tool](https://www2.acom.ucar.edu/wrf-chem/wrf-chem-tools-community)  with the MOZART-MOSAIC options.
+
+In the folder you will find:
+* edgarv5MOZARTdata.tar.gz:  EDGAR  v5.0  monthly  emissions  for  the  year  2015  (NetCDFformat), speciated for MOZART chemical mechanism.  Both total and individual sector emissionsare included in each file.
+* edgarv5MOZARTMOSAIC.inp:  Input file for anthroemiss preprocessing tool for MOZART-MOSAIC options in WRF-Chem.
+* code (folder):  scripts used to prepare 1).  
+* technicalnoteEDGARv5MOZART.pdf: documentation.
 
 
-These files are ready-to be used 
+For extensive infromation, please refer to the technical documentation technicalnoteEDGARv5MOZART.pdf.
 
 
-
-## Contribute
+## Contacts
+If you find a bug (and there will be!)
 
 ## How to cite
 If you use this ready-to-use EDGAR v5.0 inventory and/or part of the code for an academic publication or any other work, we ask you to include the following acknowledgment: “We acknowledge the use of the EDGAR v5.0 emissions inventory as prepared by **Mogno and Marvin (2022)**  [[1]](#1)”
