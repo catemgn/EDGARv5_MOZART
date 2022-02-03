@@ -32,10 +32,10 @@ Emission files are provided as individual NetCDF files for each pollutant contai
 These files are also ready-to be used in WRF-Chem [anthro-emiss preprocessing  tool](https://www2.acom.ucar.edu/wrf-chem/wrf-chem-tools-community)  with the MOZART-MOSAIC options.
 
 In the folder you will find:
-* edgarv5MOZARTdata.tar.gz:  EDGAR  v5.0  monthly  emissions  for  the  year  2015  (NetCDFformat), speciated for MOZART chemical mechanism.  Both total and individual sector emissionsare included in each file.
-* edgarv5MOZARTMOSAIC.inp:  Input file for anthroemiss preprocessing tool for MOZART-MOSAIC options in WRF-Chem.
-* code (folder):  scripts used to prepare 1).  
-* technicalnoteEDGARv5MOZART.pdf: documentation.
+* *edgarv5MOZARTdata.tar.gz*:  EDGAR  v5.0  monthly  emissions  for  the  year  2015  (NetCDFformat), speciated for MOZART chemical mechanism.  Both total and individual sector emissionsare included in each file.
+* *edgarv5MOZARTMOSAIC.inp*:  Input file for anthroemiss preprocessing tool for MOZART-MOSAIC options in WRF-Chem.
+* *code* (folder):  scripts used to prepare 1).  
+* *technicalnoteEDGARv5MOZART.pdf*: documentation.
 
 
 For extensive infromation, please refer to the technical documentation technicalnoteEDGARv5MOZART.pdf.
