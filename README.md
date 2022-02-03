@@ -25,7 +25,7 @@ Here we provide **monthly EDGAR v5.0 global  air  pollutant  emissions  for  the
 
 Emission files are provided as individual NetCDF files for each pollutant containing anthropogenic sector emissions as individual variables in the following form:
 <p align="center">
-<img src="/images/dataset_structure.PNG" width="550" height="550">
+<img src="/images/dataset_structure.PNG" width="500" height="500">
 </p>
 
 These files are also ready-to be used in WRF-Chem [anthro-emiss preprocessing  tool](https://www2.acom.ucar.edu/wrf-chem/wrf-chem-tools-community)  with the MOZART-MOSAIC options.
@@ -53,7 +53,7 @@ or directly cite the zenodo repository:
 TO DO: ADD FINAL ZENODO REP.
 
 ## :memo: License
-All  the  material  provided  (the  dataset,  the  input  file  for  anthroemiss,  the  code  and  the  presenttechnical documentation) is distributed under [MIT License](https://choosealicense.com/licenses/mit/).
+All  the  material  provided  (the  dataset,  the  input  file  for  anthroemiss,  the  code  and  the technical documentation) is distributed under [MIT License](https://choosealicense.com/licenses/mit/).
 
 ## :books: References
 <a id="1">[1]</a>
