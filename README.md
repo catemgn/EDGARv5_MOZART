@@ -1,5 +1,5 @@
 # EDGARv5_MOZART
-EDGAR v5.0 emissions inventory for year 2015 speciated for MOZART chemistry and ready to use in WRF-Chem MOZART_MOSAIC options.
+EDGAR v5.0 monthly emissions for year 2015 speciated for MOZART chemistry and ready to use in WRF-Chem model with MOZART-MOSAIC options.
 
 ![header_image](/images/edgar.jpg) ![header_image2](/images/wrfchem_logo.png) 
 
@@ -32,17 +32,18 @@ Emission files are provided as individual NetCDF files for each pollutant contai
 These files are also ready-to be used in WRF-Chem [anthro-emiss preprocessing  tool](https://www2.acom.ucar.edu/wrf-chem/wrf-chem-tools-community)  with the MOZART-MOSAIC options.
 
 In the folder you will find:
-* *edgarv5MOZARTdata.tar.gz*:  EDGAR  v5.0  monthly  emissions  for  the  year  2015  (NetCDFformat), speciated for MOZART chemical mechanism.  Both total and individual sector emissionsare included in each file.
-* [edgarv5MOZARTMOSAIC.inp](/edgarv5.0_for_mozart/edgarv5MOZARTMOSAIC.inp):  Input file for anthroemiss preprocessing tool for MOZART-MOSAIC options in WRF-Chem.
-* *code* (folder):  scripts used to prepare 1).  
-* *technicalnoteEDGARv5MOZART.pdf*: documentation.
+* [edgarv5\_MOZART\_data.tar.gz](/edgarv5.0_for_mozart/edgarv5\_MOZART\_data.tar.gz):  EDGAR  v5.0  monthly  emissions  for  the  year  2015  (NetCDFformat), speciated for MOZART chemical mechanism.  Both total and individual sector emissionsare included in each file. 
+* [edgarv5\_MOZART\_MOSAIC.inp](/edgarv5.0_for_mozart/edgarv5\_MOZART\_MOSAIC.inp):  Input file for anthroemiss preprocessing tool for MOZART-MOSAIC options in WRF-Chem.
+* [code](/edgarv5.0_for_mozart/code):  scripts used to prepare 1).  
+* [technical\_note\_EDGARv5\_MOZART.pdf](/edgarv5.0_for_mozart/technical\_note\_EDGARv5\_MOZART.pdf): documentation.
 
 
-For extensive infromation, please refer to the technical documentation technicalnoteEDGARv5MOZART.pdf.
+For extensive information, please refer to the technical documentation technical\_note\_EDGARv5\_MOZART.pdf.
 
 
 ## Contacts
-If you find a bug (and there will be!)
+If you have questions,comments, or suggestions please drop an email to **c.mogno@ed.ac.uk**. <br />
+If you find bugs (and there will be!) feel free to [open an issue](https://github.com/catemgn/EDGARv5_MOZART/issues) in the repo.
 
 ## How to cite
 If you use this ready-to-use EDGAR v5.0 inventory and/or part of the code for an academic publication or any other work, we ask you to include the following acknowledgment: “We acknowledge the use of the EDGAR v5.0 emissions inventory as prepared by **Mogno and Marvin (2022)**  [[1]](#1)”
