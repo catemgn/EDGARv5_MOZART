@@ -1,15 +1,15 @@
-# :globe_with_meridians: EDGAR v5.0 emissions inventory for MOZART mechanism: source code
+## :globe_with_meridians: EDGAR v5.0 emissions inventory for the MOZART chemical mechanism: source code 
 Here you can find the accompacode used for processing the dataset at https://doi.org/10.5281/zenodo.6130621. The dataset provides [EDGAR v5.0](https://edgar.jrc.ec.europa.eu/index.php/dataset_ap50) monthly emissions for year 2015 speciated for [MOZART chemical mechanism](https://gmd.copernicus.org/articles/3/43/2010/) and ready to use in [WRF-Chem ](https://ruc.noaa.gov/wrf/wrf-chem/) atmospheric model with MOZART-MOSAIC options.
 
 
-## :mag: Description
+### :mag: Description
 
 The dataset provides monthly EDGAR v5.0 global  air  pollutant  emissions  for  the  year  2015,  speciated  for  the  MOZART  chemical  mechanism.
 Emission files are provided as individual NetCDF files for each pollutant containing anthropogenic sector emissions as individual variables. 
 All the data processing summarised by the flowchart below:
 
 <p align="center">
-<img src="/images/dataset_process.png" width="500" height="500">
+<img src="/images/flowchart.png" width="700" height="700">
 </p>
 
 Each step of the process is described in detail in the technical documention (technical_note_EDGARv5_MOZART.pdf) accompanying the [dataset](https://doi.org/10.5281/zenodo.6130621).
@@ -29,13 +29,13 @@ In this repository you can find the code for each step in the corresponding scri
 
 For more details refer to the individual scripts.
 
-## :envelope_with_arrow: Contacts 
+### :envelope_with_arrow: Contacts 
 If you have questions,comments, or suggestions please drop an email to **c.mogno@ed.ac.uk**. <br />
 If you find bugs (and there will be!) feel free to [open an issue](https://github.com/catemgn/EDGARv5_MOZART/issues) in the repo.
 
-## :speech_balloon: How to cite  
+### :speech_balloon: How to cite  
 If you use the dataset produced by this code and/or part of the code for an academic publication or any other work, we would be grateful if you could cite the zenodo repository: https://doi.org/10.5281/zenodo.6130621
 
-## :memo: License
+### :memo: License
 All  the  material provided is distributed under [MIT License](https://choosealicense.com/licenses/mit/).
 
