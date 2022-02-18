@@ -9,7 +9,7 @@ Emission files are provided as individual NetCDF files for each pollutant contai
 All the data processing summarised by the flowchart below:
 
 <p align="center">
-<img src="/images/flowchart.png" width="700" height="700">
+<img src="/images/flowchart.png" width="700" height="600">
 </p>
 
 Each step of the process is described in detail in the technical documention (technical_note_EDGARv5_MOZART.pdf) accompanying the [dataset](https://doi.org/10.5281/zenodo.6130621).
