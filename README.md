@@ -1,4 +1,4 @@
-# :globe_with_meridians: EDGAR v5.0 emission inventory for the MOZART chemical mechanism: source code
+# :globe_with_meridians: EDGAR v5.0 emissions inventory for MOZART mechanism: source code
 Here you can find the accompacode used for processing the dataset at https://doi.org/10.5281/zenodo.6130621. The dataset provides [EDGAR v5.0](https://edgar.jrc.ec.europa.eu/index.php/dataset_ap50) monthly emissions for year 2015 speciated for [MOZART chemical mechanism](https://gmd.copernicus.org/articles/3/43/2010/) and ready to use in [WRF-Chem ](https://ruc.noaa.gov/wrf/wrf-chem/) atmospheric model with MOZART-MOSAIC options.
 
 
