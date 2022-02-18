@@ -34,7 +34,7 @@ If you have questions,comments, or suggestions please drop an email to **c.mogno
 If you find bugs (and there will be!) feel free to [open an issue](https://github.com/catemgn/EDGARv5_MOZART/issues) in the repo.
 
 ### :speech_balloon: How to cite  
-If you use the dataset produced by this code and/or part of the code for an academic publication or any other work, we would be grateful if you could cite the zenodo repository: https://doi.org/10.5281/zenodo.6130621
+If you use the dataset produced by this code and/or part of the code for an academic publication or any other work, we would be grateful if you could cite the zenodo repositories: https://doi.org/10.5281/zenodo.6130621 , https://doi.org/10.5281/zenodo.6145846
 
 ### :memo: License
 All  the  material provided is distributed under [MIT License](https://choosealicense.com/licenses/mit/).
